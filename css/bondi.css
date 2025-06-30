@@ -941,7 +941,7 @@ transition: var(--main-transition);}
 
 
  .sports {
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: var(--white-color);
     padding-top: var(--pading-top);
     padding-bottom: var(--pading-bottom);
