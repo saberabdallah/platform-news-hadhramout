@@ -522,7 +522,7 @@ border-radius: 5px;
 
   .breaking-news-content {
 
-  font-size: 16px;
+  font-size: 19px;
 
 }
   
@@ -741,7 +741,7 @@ border-radius: 5px;
 
 .landing {
 
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: var(--white-color);
     padding-top: var(--pading-top);
     padding-bottom: var(--pading-bottom);
@@ -820,7 +820,7 @@ transition: var(--main-transition);}
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 
   .landing .section .section-one p {
 
