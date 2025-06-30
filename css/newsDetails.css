@@ -1,0 +1,198 @@
+:root {
+    /* --maincolor-section: whitesmoke; */
+    --white-color:#ffffff;
+    --gray-color:#e5e9ec;
+
+    --margin-top: 7rem;
+    --margin-bottom: 2rem;
+    --paragraphClr: #5a5a5a;
+  }
+
+  body {
+    background-color:var(--white-color) ;
+
+  }
+
+
+main{
+
+    background-color:var(--white-color) ;
+    margin: var(--margin-top) auto var(--margin-bottom);
+    max-width: 700px;
+}
+
+
+
+
+main .container-image {
+
+    background-color:var(--white-color) ;
+
+}
+
+
+
+
+
+
+main .heading-2 {
+
+    font-size: 19px;
+    font-weight: 600;
+    font-family: sky;
+    line-height: 1.3;
+    
+
+}
+
+
+
+
+
+main .img-section{
+
+    height: 338px;
+    width: auto;
+}
+
+
+
+main .img-section img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+main .subtitle {
+
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sky;
+    line-height: 1.3;
+    color: #312a2a;
+    
+}
+
+
+
+
+
+
+/* ...........................start related-posts ........................... */
+
+
+
+.related-posts  .title-side .sub-heading {
+
+
+
+}
+
+
+
+.related-posts  {
+    
+  background-color: var(--white-color);
+  padding-top: var(--pading-top);
+  padding-bottom: var(--pading-bottom);
+}
+
+
+
+
+
+
+@media (max-width: 767px) { /* شاشات صغيرة */
+
+
+.related-posts  .img-side img {
+      width: 500px;
+      height: 260px;
+
+    }
+
+}
+
+
+/* شاشات المتوسطة */
+
+@media (min-width: 768px) { 
+
+
+.related-posts  .img-side img {
+      width: 250px;
+      height: 222px;
+    }
+
+}
+
+
+
+/* شاشات كبيرة  */
+
+@media (min-width: 992px) { 
+
+
+.related-posts  .img-side img {
+      width: 250px;
+      height: 222px;
+    }
+
+}
+
+
+
+.related-posts  .title-side .sub-heading-related {
+      
+    color: black;
+    letter-spacing: 0.5px;
+    max-width: 300px;
+    font-size: 20px;
+    }
+
+    @media (max-width: 768px) {
+
+    .related-posts .title-side .sub-heading-related {
+
+          max-width: max-content;
+    }
+
+  }
+
+
+
+.related-posts  .title-side .sub-heading-related {
+ transition: var(--second-transition);
+ 
+}
+
+
+.related-posts .title-side .sub-heading-related:hover {
+  color: var(--color-link1);
+}
+
+
+.related-posts  .container-time svg,
+.related-posts  .container-time p {
+
+  font-size: 12px;
+}
+
+
+
+
+/* ...........................end related-posts ........................... */
+
+
+
+
+
+
+
