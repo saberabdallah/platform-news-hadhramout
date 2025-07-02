@@ -249,7 +249,7 @@ border-radius: 5px;
         .nav-links a {
             text-decoration: none;
             color: #fff;
-            font-size: 1.1rem;
+            font-size: 25px;
             font-weight: 500;
             padding: 10px 15px;
             border-radius: 8px;
@@ -373,7 +373,7 @@ border-radius: 5px;
         .mobile-links a {
             text-decoration: none;
             color: #fff;
-            font-size: 1.2rem;
+            font-size: 23px;
             display: block;
             padding: 10px 0;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -473,7 +473,7 @@ border-radius: 5px;
 @media (max-width:992px) {
 
 .breaking-news {
-  padding: 5px 0;
+  padding: 8px 0;
 }  
 
 }
